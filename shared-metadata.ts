@@ -8,7 +8,11 @@ const description = 'Personal portfolio website of Fatma Turan. Java Developer, 
 export const sharedMetaData: Metadata = {
     title,
     description,
+    openGraph:{
+        title,
+    description,
     type: "website",
     locale: "en_US",
     url: "https://fatmaturanportfolio.vercel.app"
+    }
 };
