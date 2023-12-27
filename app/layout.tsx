@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { raleway } from './lib/font'
-import Header from './components/header'
+import Header from './components/header1'
+import Footer from './components/footer1'
 
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
           <div className='gradient-blur'></div>
         </div>
         {children}
+        <Footer/>
       </body>
     </html>
   )

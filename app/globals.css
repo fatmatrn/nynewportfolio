@@ -18,7 +18,7 @@
   }
 
   .background::before{
-      @apply absolute top-0 w-full  h-full z-[1] bg-[url('/images/grid.png')] bg-cover opacity-20;
+      @apply absolute top-0 w-full  h-full z-[1] ;
       content:"";
       filter:invert(1);
       z-index: 1;
