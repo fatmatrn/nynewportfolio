@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center flex-1 py-24">
+    <main className="flex justify-center items-center flex-col lg:flex-row flex-1 py-24">
              <h2 className={`text-4xl font-semibold text-center`}>
            <div className="z-10  max-w-4xl flex flex-col w-full px-4 ">
             <h1 className="text-4xl font-semibold tracking-tight">Hello,I&apos;m Fatma {" "}
