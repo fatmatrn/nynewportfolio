@@ -9,13 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       animation:{
-        wiggle:'wiggle 1s ease-in-out infinite'
+        wiggle:'wiggle 1s ease-in-out infinite',
+        moveUpDown: 'moveUpDown 3s ease-in-out infinite',
       },
      keyframes:{
       wiggle:{
         '0%,100%':{transform:'rotate(-4deg)'},
         '50%':{transform:'rotate(4deg)'}
-      }
+      },
+      moveUpDown: {
+        '0%, 100%': { transform: 'translateY(0)' },
+        '50%': { transform: 'translateY(-10px)' }, // Yukarı hareket
+      },
      }
     },
   },
