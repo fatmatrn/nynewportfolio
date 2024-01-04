@@ -25,7 +25,7 @@ const Project = (props: Props) => {
       <div className="absolute inset-0  bg-gradient-to-b from-transparent to-gray-300
       transform translate-y-0 transition-transform hover:translate-y-full duration-300 ease-in-out
       w-full h-full flex justify-center items-center">
-      <h2 className='text-center'>{props.name}</h2>
+      <h2 className={`text-center bg-[url('images/desen.jpg')]`}>{props.name}</h2>
       </div>
     </div>
   );
